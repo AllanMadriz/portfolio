@@ -1,19 +1,19 @@
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Java from '../images/java.png'
-import post from '../images/postgresql.webp'
-import mysql from '../images/mysql.png'
-import sqlserver from '../images/sqlserver.png'
-import js from '../images/js.png'
-import css from '../images/css.png'
-import html from '../images/html.webp'
-import csharp from '../images/csharp.png'
-import react from '../images/react.png'
-import node from '../images/node.webp'
-import php from '../images/php.png'
-import git from '../images/git.png'
-import boot from '../images/boots.png'
+import Java from "../images/java.png";
+import post from "../images/postgresql.webp";
+import mysql from "../images/mysql.png";
+import sqlserver from "../images/sqlserver.png";
+import js from "../images/js.png";
+import css from "../images/css.png";
+import html from "../images/html.webp";
+import csharp from "../images/csharp.png";
+import react from "../images/react.png";
+import node from "../images/node.webp";
+import php from "../images/php.png";
+import git from "../images/git.png";
+import boot from "../images/boots.png";
 
 export const Skills = () => {
   const responsive = {
@@ -54,58 +54,64 @@ export const Skills = () => {
                 congue. Duis at metus commodo, lacinia metus ac, condimentum
                 urna. Sed tempor vel risus et fringilla.
               </p>
-              <Carousel responsive={responsive} infinite={true} className="skill-slider">
+              <Carousel
+                responsive={responsive}
+                infinite={true}
+                autoPlay={true}
+                autoPlaySpeed={3000}
+                className="skill-slider"
+              >
                 <div className="item">
-                    <img src={post} alt="Image"/>
-                    <h5>PostgreSQL</h5>
+                  <img src={post} alt="Image" />
+                  <h5>PostgreSQL</h5>
                 </div>
                 <div className="item">
-                    <img src={mysql} alt="Image"/>
-                    <h5>MySQL</h5>
+                  <img src={mysql} alt="Image" />
+                  <h5>MySQL</h5>
                 </div>
                 <div className="item">
-                    <img src={sqlserver} alt="Image"/>
-                    <h5>SQL Server</h5>
+                  <img src={sqlserver} alt="Image" />
+                  <h5>SQL Server</h5>
                 </div>
                 <div className="item">
-                    <img src={html} alt="Image"/>
-                    <h5>HTML5</h5>
+                  <img src={html} alt="Image" />
+                  <h5>HTML5</h5>
                 </div>
                 <div className="item">
-                    <img src={css} alt="Image"/>
-                    <h5>CSS3</h5>
+                  <img src={css} alt="Image" />
+                  <h5>CSS3</h5>
                 </div>
                 <div className="item">
-                    <img src={js} alt="Image"/>
-                    <h5>JavaScript</h5>
+                  <img src={js} alt="Image" />
+                  <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                    <img src={react} alt="Image"/>
-                    <h5>React</h5>
+                  <img src={react} alt="Image" />
+                  <h5>React</h5>
                 </div>
                 <div className="item">
-                    <img src={node} alt="Image"/>
-                    <h5>Node JS</h5>
+                  <img src={node} alt="Image" />
+                  <h5>Node JS</h5>
                 </div>
                 <div className="item">
-                    <img src={Java} alt="Image"/>
-                    <h5>Java</h5>
+                  <img src={Java} alt="Image" />
+                  <h5>Java</h5>
                 </div>
                 <div className="item">
-                    <img src={csharp} alt="Image"/>
-                    <h5>C#</h5>
+                  <img src={csharp} alt="Image" />
+                  <h5>C#</h5>
                 </div>
                 <div className="item">
-                    <img src={php} alt="Image"/>
-                    <h5>PHP</h5>
+                  <img src={php} alt="Image" />
+                  <h5>PHP</h5>
                 </div>
                 <div className="item">
-                    <img src={git} alt="Image"/>
-                    <h5>Git</h5>
+                  <img src={git} alt="Image" />
+                  <h5>Git</h5>
                 </div>
                 <div className="item">
-                    <img src={boot} alt="Image"/>
-                    <h5>Bootstrap</h5>
+                  <img src={boot} alt="Image" />
+                  <h5>Bootstrap</h5>
                 </div>
               </Carousel>
             </div>
