@@ -7,10 +7,12 @@ import { Contact } from './components/Contact';
 import Education from './components/Education';
 import './Nav.css'
 import Footer from './components/Footer';
+import ParticlesBackground from './components/ParticlesBackground';
 
 function App() {
   return (
     <div className="App">
+      <ParticlesBackground/>
       <NavBar />
       <Banner />
       <Skills />

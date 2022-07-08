@@ -14,9 +14,9 @@ const Footer = () => {
                 </Col>
                 <Col sm={6} className="text-center text-sm-end">
                    <div className="social-icon">
-                        <a href=""><img src={navIcon1} /></a>
-                        <a href=""><img src={navIcon2} /></a>
-                        <a href=""><img src={navIcon3} /></a>
+                        <a href="https://www.linkedin.com/in/allan-madriz-z%C3%BA%C3%B1iga-59943021b/"><img src={navIcon1} /></a>
+                        <a href="https://www.facebook.com/allanalberto.madrizzuniga.1/"><img src={navIcon2} /></a>
+                        <a href="https://www.instagram.com/allanmadrizzu/"><img src={navIcon3} /></a>
                    </div>
                    <p>CopyRight 2022. All Right Reserved. Allan Madriz Zúñiga</p>
                 </Col>

@@ -43,17 +43,21 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Professional Skills</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                nulla lacus, accumsan vitae nisl vitae, accumsan vulputate odio.
-                Pellentesque pellentesque ultrices mollis. Integer feugiat
-                posuere turpis vitae finibus. Fusce tempus lacus libero, eget
-                venenatis libero posuere sed. Etiam et purus leo. Nulla cursus
-                ex sit amet nisi vestibulum eleifend. Nulla consectetur ut metus
-                ut ullamcorper. Nunc aliquam odio nec ante fringilla, ac
-                tincidunt quam imperdiet. Sed efficitur sed lectus sit amet
-                congue. Duis at metus commodo, lacinia metus ac, condimentum
-                urna. Sed tempor vel risus et fringilla.
+                This are some of my Professional Skills that I continous
+                learning something new about these technologies every day.
               </p>
+              <p>
+                My mainly Soft Skills are Time Management, Problem Solving and
+                Communication and I'm always looking to improve myself as person.
+              </p>
+              <p>
+                I'm always open to learn new technologies and frameworks that 
+                are required in the area and become a better developer.
+              </p>
+              <p>
+                If I can help you with some of this skills let me know.
+              </p>
+              <p>It would be a pleasure to work with you!!</p>
               <Carousel
                 responsive={responsive}
                 infinite={true}

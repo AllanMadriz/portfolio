@@ -38,8 +38,36 @@ p, a, li, button, ul{
   text-decoration: none;
 }
 
-a:hover {
+.btn-cv{
+  color: #AA367C;
+  padding: 10px;
+  border: 1px solid #AA367C;
   text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.5s;
+  border-radius: 300px;
+  border-bottom-left-radius: 0;
+  font-weight: 600;
+}
+
+.btn-cv:hover{
+  color: rgb(52, 189, 189);;
+  border: 1px solid rgb(52, 189, 189);;
+}
+
+a {
+  text-decoration: none;
+}
+
+p a{
+  color: #AA367C;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+p a:hover{
+  color: #703759;
 }
 
 img {
@@ -192,14 +220,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
-
 .banner {
   margin-top: 0;
   padding: 200px 0 100px 0;
-  background-image: url('./images/sh.svg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 .banner h1 {
@@ -217,6 +244,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  z-index: 11 !important;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -267,7 +296,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
-  background-image: url('./images/sh2.png');
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -278,12 +306,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
-  background: rgba(255, 255, 255, 0.05);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(26, 80, 80, 0.548);
+  border: 1px solid rgba(255, 255, 255, 0.548);
 }
 
 form.skill-bx {
@@ -291,6 +316,7 @@ form.skill-bx {
 }
 
 .skill h2 {
+  color: #AA367C;
   font-size: 45px;
   font-weight: 700;
 }
@@ -300,13 +326,13 @@ form.skill-bx {
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px 0 75px 0;
 }
 
 .skill-slider {
   width: 80%;
   margin: 0 auto;
   position: relative;
+  padding-top: 10px;
 }
 
 .skill-slider .item img {
@@ -335,13 +361,13 @@ form.skill-bx {
 
 /************ Contact Css ************/
 .contact {
-  background-image: url(./images/sh2.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 0 100px 0;
 }
 
 .contact h2 {
+  color: #AA367C;
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -355,9 +381,9 @@ form.skill-bx {
 }
 
 .contact form input {
-  width: 100%;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 90%;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(26, 80, 80, 0.795);
   border-radius: 20px;
   color: #fff;
   margin: 0 0 8px 0;
@@ -374,8 +400,9 @@ form.skill-bx {
 
 /************ Footer Css ************/
 .footer {
-  padding: 50px 0 50px 0;
-  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+  padding: 50px 0 30px 0;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.568);
 }
 
 .footer img {
@@ -392,16 +419,15 @@ form.skill-bx {
 
 @media screen and (max-width: 912px) {
   .footer{
-    padding: 50px 0 600px 0;
+    padding: 50px 0 350px 0;
   }
 }
 
 @media screen and (max-width: 820px) {
   .footer{
-    padding: 50px 0 450px 0;
+    padding: 50px 0 150px 0;
   }
 }
-
 
 /*Medias*/
 @media screen and (max-width: 768px) {
@@ -431,7 +457,6 @@ form.skill-bx {
   }
 
   .contact form input {
-    width: 100%;
     margin: 0 0 0 0;
     padding: 10px 0;
   }
@@ -444,10 +469,11 @@ form.skill-bx {
     text-align: center;
     width: 100%;
     padding: 15px;
+    
   }
 
   .footer {
-    padding: 50px 0 300px 0;
+    padding: 50px 0 50px 0;
   }
 }
 
@@ -459,7 +485,7 @@ form.skill-bx {
 
 @media screen and (max-width: 414px) {
   .footer{
-    padding: 50px 0 150px 0;
+    padding: 50px 0 100px 0;
   }
 }
 
@@ -467,24 +493,30 @@ form.skill-bx {
   .footer{
     padding: 50px 0 50px 0;
   }
-}
 
+  .skill h2{
+    font-size: 20px;
+  }
+}
 
 .education{
     padding: 100px 0 100px 0;
-    background-image: url('./images/sh.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.education h1{
+  color: #AA367C;
+}
+
 span.dates{
-  background-color: rgb(26, 80, 80);
+  background-color: rgba(26, 80, 80, 0.527);
   padding: 8px;
   border-radius: 15px;
 }
 
 .tittles{
-  border: 4px solid rgb(26, 80, 80);
+  border: 4px solid rgba(26, 80, 80, 0.5);
   padding: 10px;
   border-radius: 22px;
 }

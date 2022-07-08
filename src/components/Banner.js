@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../images/spacecat1.png";
 
 export const Banner = () => {
@@ -54,17 +53,16 @@ export const Banner = () => {
               {`I'm a `} <span className="wrap">{text}</span>
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              nulla lacus, accumsan vitae nisl vitae, accumsan vulputate odio.
-              Pellentesque pellentesque ultrices mollis. Integer feugiat posuere
-              turpis vitae finibus. Fusce tempus lacus libero, eget venenatis
-              libero posuere sed. Etiam et purus leo. Nulla cursus ex sit amet
-              nisi vestibulum eleifend. Nulla consectetur ut metus ut
-              ullamcorper. Nunc aliquam odio nec ante fringilla, ac tincidunt
-              quam imperdiet. Sed efficitur sed lectus sit amet congue. Duis at
-              metus commodo, lacinia metus ac, condimentum urna. Sed tempor vel
-              risus et fringilla.
-            </p>
+              I'm a Costa Rican-based Software Developer, who likes to learn new programming languages and investigate something new about technology every day.
+              </p>
+              <p>
+              Currently, I'm a Software Developer at <a href="https://www.roc360.com/">Roc360</a> with differents task on the BackEnd and FrontEnd.
+              </p>
+              <p>
+              A person who enjoys the music, video games, movies and the great world of technology, 
+              also a person who enjoy travel and know new places and new people.
+              </p>
+              <a className="btn-cv" href="https://drive.google.com/uc?id=1WVe5NX-Ju0b3vVHBl9GU6gS07w4DYuQO&export=download">Download CV</a>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header Img" />
