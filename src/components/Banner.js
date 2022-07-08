@@ -56,7 +56,7 @@ export const Banner = () => {
               I'm a Costa Rican-based Software Developer, who likes to learn new programming languages and investigate something new about technology every day.
               </p>
               <p>
-              Currently, I'm a Software Developer at <a href="https://www.roc360.com/">Roc360</a> with differents task on the BackEnd and FrontEnd.
+              Currently, I'm a Software Developer at <a href="https://www.roc360.com/" target="_blank">Roc360</a> with differents task on the BackEnd and FrontEnd.
               </p>
               <p>
               A person who enjoys the music, video games, movies and the great world of technology, 
