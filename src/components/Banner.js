@@ -5,7 +5,7 @@ import headerImg from "../images/spacecat1.png";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Software Developer.", "Geek.", "Rock Lover"];
+  const toRotate = ["Software Developer.", "Geek."];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 1000;
