@@ -41,10 +41,10 @@ p, a, li, button, ul{
 .btn-cv{
   color: #AA367C;
   padding: 10px;
-  border: 1px solid #AA367C;
+  border: 2px solid #AA367C;
   text-decoration: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   transition: 0.5s;
   border-radius: 300px;
   border-bottom-left-radius: 0;
@@ -52,8 +52,8 @@ p, a, li, button, ul{
 }
 
 .btn-cv:hover{
-  color: rgb(52, 189, 189);;
-  border: 1px solid rgb(52, 189, 189);;
+  color: #B8B8B8;
+  border: 2px solid #B8B8B8;
 }
 
 a {
